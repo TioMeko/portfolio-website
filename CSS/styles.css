@@ -1,0 +1,218 @@
+/* Gloabl elements */
+body, html {
+  font-family: 'Merriweather', serif;
+  margin: 0;
+  text-align: center;
+  padding: 0;
+}
+
+main {
+  width: 100%;
+}
+
+h1 {
+  font-family: 'Parisienne', cursive;
+  font-size: 5.625rem;
+  margin: 50px auto 0 auto;
+  color: #596E79;
+}
+
+h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2rem;
+  color: #456268;
+  font-weight: normal;
+}
+
+h3 {
+  font-family: 'Montserrat', sans-serif;
+  color: #596E79;
+  font-size: 1.5rem;
+}
+
+hr {
+  border: none;
+  border-top: 15px dotted;
+  width: 7%;
+  color: grey;
+  margin: 100px auto;
+}
+
+a:hover {
+  color: #7199a2;
+}
+
+p {
+  font-size: 1.125em;
+  line-height: 2;
+  text-align: center;
+  width: 550px;
+  margin: 0 auto;
+}
+
+nav{
+  text-align: left;
+  padding: 50px 0 0;
+}
+
+form {
+  margin-bottom: 50px;
+}
+
+label{
+  display: inline;
+}
+input, textarea {
+  outline: none;
+  background-color: #ebe1d4;
+  padding: 5px 10px;
+  border: 1px solid black;
+}
+
+
+/* CSS within the header tag */
+.header {
+  background-color: #F0ECE3;
+  width: 100%;
+}
+
+.links {
+  color: #597f87;
+  margin: 20px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.top-cloud {
+  position: absolute;
+  right: 15%;
+  top: 50px;
+}
+
+.pro {
+  text-decoration: underline;
+}
+
+.bot-cloud {
+  position: absolute;
+  left: 15%;
+}
+
+/* About Me CSS */
+.profile-pic {
+  width: 350px;
+  margin: 100px auto 50px auto;
+}
+
+/* Main showcase section CSS */
+.main-showcase {
+  width: 300px;
+  transition: 1s ease;
+}
+
+.main-showcase:hover{
+  -webkit-transform: scale(1.2);
+  -ms-transform: scale(1.2);
+  transform: scale(1.2);
+  transition: 1s ease;
+}
+
+/* Work showcase section CSS */
+.work-row{
+  width: 960px;
+  display: flex;
+  justify-content: space-around;
+  margin: auto;
+}
+
+.work-showcase{
+  width: 250px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  
+}
+
+.work-showcase p{
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+.project-pic1, .project-pic2, .project-pic3 {
+  width: 150px;
+  margin-top: 50px;
+}
+
+.project-pic1:hover{
+  filter: grayscale(100%);
+  -webkit-filter: grayscale(100%);
+  -moz-filter: grayscale(100%);
+  transform: scale(1.1);
+  -webkit-transform: scale(1.1);
+  -moz-transform: scale(1.1);
+}
+
+.project-pic2, .project-pic3 {
+  filter: grayscale(100%);
+  -webkit-filter: grayscale(100%);
+  -moz-filter: grayscale(100%);
+}
+
+.project-pic2:hover, .project-pic3:hover{
+  filter: grayscale(0%);
+  -webkit-filter: grayscale(0%);
+  -moz-filter: grayscale(0%);
+  transform: scale(1.1);
+  -webkit-transform: scale(1.1);
+  -moz-transform: scale(1.1);
+}
+
+/* Contact section CSS */
+.formStyle {
+  margin: 0 auto 50px;
+  width: 550px;
+  border: 5px solid #DFD3C3;
+  border-radius: 30px;
+  padding: 25px;
+}
+
+.btn {
+  display: inline-block;
+  outline: 0;
+  cursor: pointer;
+  border: none;
+  padding: 0 56px;
+  height: 45px;
+  line-height: 45px;
+  border-radius: 7px;
+  background-color: #9D886A;
+  color: white;
+  font-weight: 400;
+  font-size: 16px;
+  box-shadow: 0 4px 14px 0 #9D886A;
+  transition: background 0.2s ease,color 0.2s ease,box-shadow 0.2s ease;
+}
+
+.btn:hover{
+  background: #BCAB94;
+  box-shadow: 0 6px 20px #BCAB94;
+}
+
+/* Footer CSS */
+.footer {
+  background-color: #DFD3C3;
+  color: black;
+  padding: 50px 0 25px 0;
+}
+
+.copyright {
+  padding-top: 25px;
+}
+
+@media screen and (max-width: 412px) {
+  header {
+    background: #772014;
+  }
+}
