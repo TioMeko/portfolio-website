@@ -146,7 +146,7 @@ input, textarea {
   transition: all .45s ease-out;
 }
 
-.project-pic1:hover{
+.project-pic1:hover, .project-pic2:hover{
   filter: grayscale(100%);
   -webkit-filter: grayscale(100%);
   -moz-filter: grayscale(100%);
@@ -155,13 +155,13 @@ input, textarea {
   -moz-transform: scale(1.1);
 }
 
-.project-pic2, .project-pic3 {
+.project-pic3 {
   filter: grayscale(100%);
   -webkit-filter: grayscale(100%);
   -moz-filter: grayscale(100%);
 }
 
-.project-pic2:hover, .project-pic3:hover{
+.project-pic3:hover{
   filter: grayscale(0%);
   -webkit-filter: grayscale(0%);
   -moz-filter: grayscale(0%);
