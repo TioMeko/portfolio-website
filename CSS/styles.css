@@ -140,31 +140,16 @@ input, textarea {
   text-align: center;
 }
 
-.project-pic1, .project-pic2, .project-pic3 {
+.project-pic {
   width: 150px;
   margin-top: 50px;
   transition: all .45s ease-out;
 }
 
-.project-pic1:hover, .project-pic2:hover{
+.project-pic:hover{
   filter: grayscale(100%);
   -webkit-filter: grayscale(100%);
   -moz-filter: grayscale(100%);
-  transform: scale(1.1);
-  -webkit-transform: scale(1.1);
-  -moz-transform: scale(1.1);
-}
-
-.project-pic3 {
-  filter: grayscale(100%);
-  -webkit-filter: grayscale(100%);
-  -moz-filter: grayscale(100%);
-}
-
-.project-pic3:hover{
-  filter: grayscale(0%);
-  -webkit-filter: grayscale(0%);
-  -moz-filter: grayscale(0%);
   transform: scale(1.1);
   -webkit-transform: scale(1.1);
   -moz-transform: scale(1.1);
